@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\src\TwPrecomp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\src\TwMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\src\TwFonts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\src\TwColors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\src\TwBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\src\TwOpenGL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\src\LoadOGL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\src\TwOpenGLCore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\src\LoadOGLCore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\src\TwEventGLUT.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\src\TwPrecomp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\src\TwMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\src\TwFonts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\src\TwColors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\src\TwBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\src\TwGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\src\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\src\TwOpenGL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\src\TwOpenGLCore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\src\MiniGLUT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C9B8F77A-A13D-3DA6-9302-57C95D6A90D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{293F6DB8-97F0-36B8-9773-A694F91C48B3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
