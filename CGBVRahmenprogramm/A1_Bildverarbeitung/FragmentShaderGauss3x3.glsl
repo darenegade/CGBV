@@ -25,7 +25,7 @@ uniform vec2 offsets[9] = vec2[](	vec2(-1,  1),
 									vec2( 1,  1),
 									vec2( 1,  0),
 									vec2( 1, -1)	);
-
+//Varianz Funktion siehe: https://de.wikipedia.org/wiki/Gau%C3%9F-Filter
 float varianz(vec2 cords){
 
 	float a = 1/(2.0 * 3.145 * pow(param1.x,2));

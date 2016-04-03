@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm/Dependencies
+# Install script for directory: C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm/Dependencies
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm/Abgabe")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm/Abgabe")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -29,11 +29,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm/build/Dependencies/freeglut/cmake_install.cmake")
-  include("C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm/build/Dependencies/glew/cmake_install.cmake")
-  include("C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm/build/Dependencies/AntTweakBar/cmake_install.cmake")
-  include("C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm/build/Dependencies/FreeImage/cmake_install.cmake")
-  include("C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm/build/Dependencies/GLTools/cmake_install.cmake")
+  include("C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm/build/Dependencies/freeglut/cmake_install.cmake")
+  include("C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm/build/Dependencies/glew/cmake_install.cmake")
+  include("C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm/build/Dependencies/AntTweakBar/cmake_install.cmake")
+  include("C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm/build/Dependencies/FreeImage/cmake_install.cmake")
+  include("C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm/build/Dependencies/GLTools/cmake_install.cmake")
 
 endif()
 

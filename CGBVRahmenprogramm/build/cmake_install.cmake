@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm
+# Install script for directory: C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm/Abgabe")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm/Abgabe")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -28,14 +28,14 @@ if(NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm/Texturen")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm/Texturen")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm/build/Dependencies/cmake_install.cmake")
-  include("C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm/build/ImageLoader/cmake_install.cmake")
-  include("C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm/build/A1_Bildverarbeitung/cmake_install.cmake")
+  include("C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm/build/Dependencies/cmake_install.cmake")
+  include("C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm/build/ImageLoader/cmake_install.cmake")
+  include("C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm/build/A1_Bildverarbeitung/cmake_install.cmake")
 
 endif()
 
@@ -47,5 +47,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

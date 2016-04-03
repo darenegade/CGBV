@@ -1,41 +1,41 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\A1_Bildverarbeitung\ImageProcessing.cpp">
+    <ClCompile Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\A1_Bildverarbeitung\ImageProcessing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\A1_Bildverarbeitung\Timer.cpp">
+    <ClCompile Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\A1_Bildverarbeitung\Timer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\A1_Bildverarbeitung\Timer.h">
+    <ClInclude Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\A1_Bildverarbeitung\Timer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\A1_Bildverarbeitung\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\A1_Bildverarbeitung\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\A1_Bildverarbeitung\FragmentShaderBewMit.glsl" />
-    <None Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\A1_Bildverarbeitung\VertexShader.glsl" />
-    <None Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\A1_Bildverarbeitung\FragmentShaderBrightness_Contrast.glsl" />
-    <None Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\A1_Bildverarbeitung\FragmentShaderDilatation.glsl" />
-    <None Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\A1_Bildverarbeitung\FragmentShaderErosion.glsl" />
-    <None Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\A1_Bildverarbeitung\FragmentShaderGauss3x3.glsl" />
-    <None Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\A1_Bildverarbeitung\FragmentShaderGauss5x5.glsl" />
-    <None Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\A1_Bildverarbeitung\FragmentShaderGauss7x7.glsl" />
-    <None Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\A1_Bildverarbeitung\FragmentShaderLaplace.glsl" />
-    <None Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\A1_Bildverarbeitung\FragmentShaderPassthrough.glsl" />
-    <None Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\A1_Bildverarbeitung\FragmentShaderSharpen.glsl" />
-    <None Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\A1_Bildverarbeitung\FragmentShaderSobel.glsl" />
+    <None Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\A1_Bildverarbeitung\FragmentShaderBewMit.glsl" />
+    <None Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\A1_Bildverarbeitung\VertexShader.glsl" />
+    <None Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\A1_Bildverarbeitung\FragmentShaderBrightness_Contrast.glsl" />
+    <None Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\A1_Bildverarbeitung\FragmentShaderDilatation.glsl" />
+    <None Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\A1_Bildverarbeitung\FragmentShaderErosion.glsl" />
+    <None Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\A1_Bildverarbeitung\FragmentShaderGauss3x3.glsl" />
+    <None Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\A1_Bildverarbeitung\FragmentShaderGauss5x5.glsl" />
+    <None Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\A1_Bildverarbeitung\FragmentShaderGauss7x7.glsl" />
+    <None Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\A1_Bildverarbeitung\FragmentShaderLaplace.glsl" />
+    <None Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\A1_Bildverarbeitung\FragmentShaderPassthrough.glsl" />
+    <None Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\A1_Bildverarbeitung\FragmentShaderSharpen.glsl" />
+    <None Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\A1_Bildverarbeitung\FragmentShaderSobel.glsl" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{C9B8F77A-A13D-3DA6-9302-57C95D6A90D6}</UniqueIdentifier>
+      <UniqueIdentifier>{9824D86F-6A39-3697-B2CD-7181831AD3E6}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{293F6DB8-97F0-36B8-9773-A694F91C48B3}</UniqueIdentifier>
+      <UniqueIdentifier>{AE219AAC-A9F5-3C3F-AEBE-935860D9C785}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

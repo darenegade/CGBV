@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm/Dependencies/freeglut
+# Install script for directory: C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm/Dependencies/freeglut
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm/Abgabe")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm/Abgabe")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

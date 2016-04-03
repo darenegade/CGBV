@@ -1,49 +1,49 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
-    <ProjectConfiguration Include="Debug|x64">
+    <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
-      <Platform>x64</Platform>
+      <Platform>Win32</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="Release|x64">
+    <ProjectConfiguration Include="Release|Win32">
       <Configuration>Release</Configuration>
-      <Platform>x64</Platform>
+      <Platform>Win32</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="MinSizeRel|x64">
+    <ProjectConfiguration Include="MinSizeRel|Win32">
       <Configuration>MinSizeRel</Configuration>
-      <Platform>x64</Platform>
+      <Platform>Win32</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="RelWithDebInfo|x64">
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
       <Configuration>RelWithDebInfo</Configuration>
-      <Platform>x64</Platform>
+      <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{B7E6D73F-FAEF-3A33-A786-2F981E26AA5D}</ProjectGUID>
+    <ProjectGUID>{8549A4AC-329E-3A14-8C97-C939E0F0828C}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
-    <Platform>x64</Platform>
+    <Platform>Win32</Platform>
     <ProjectName>ImageLoader</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v140</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v140</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v140</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
@@ -58,26 +58,26 @@
   <PropertyGroup Label="UserMacros" />
     <PropertyGroup>
       <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\build\ImageLoader\Debug\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ImageLoader.dir\Debug\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ImageLoader</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\build\ImageLoader\Release\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ImageLoader.dir\Release\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ImageLoader</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\build\ImageLoader\MinSizeRel\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ImageLoader.dir\MinSizeRel\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ImageLoader</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\build\ImageLoader\RelWithDebInfo\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ImageLoader.dir\RelWithDebInfo\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ImageLoader</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\build\ImageLoader\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ImageLoader.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ImageLoader</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\build\ImageLoader\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ImageLoader.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ImageLoader</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\build\ImageLoader\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ImageLoader.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ImageLoader</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\build\ImageLoader\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ImageLoader.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ImageLoader</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
     </PropertyGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\FreeImage\Source;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\freeglut\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\GLTools\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\glew\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\FreeImage\Source;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\freeglut\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\GLTools\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\AntTweakBar\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\glew\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -94,10 +94,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;FREEIMAGE_LIB;TW_STATIC;_CRT_SECURE_NO_WARNINGS;FREEGLUT_LIB_PRAGMAS=0;FREEGLUT_STATIC;TW_NO_LIB_PRAGMA;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\FreeImage\Source;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\freeglut\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\GLTools\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\glew\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\FreeImage\Source;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\freeglut\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\GLTools\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\AntTweakBar\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\glew\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\FreeImage\Source;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\freeglut\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\GLTools\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\glew\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\FreeImage\Source;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\freeglut\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\GLTools\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\AntTweakBar\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\glew\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -105,12 +105,12 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Lib>
-      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
     </Lib>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\FreeImage\Source;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\freeglut\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\GLTools\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\glew\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\FreeImage\Source;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\freeglut\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\GLTools\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\AntTweakBar\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\glew\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -126,10 +126,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FREEIMAGE_LIB;TW_STATIC;_CRT_SECURE_NO_WARNINGS;FREEGLUT_LIB_PRAGMAS=0;FREEGLUT_STATIC;TW_NO_LIB_PRAGMA;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\FreeImage\Source;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\freeglut\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\GLTools\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\glew\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\FreeImage\Source;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\freeglut\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\GLTools\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\AntTweakBar\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\glew\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\FreeImage\Source;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\freeglut\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\GLTools\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\glew\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\FreeImage\Source;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\freeglut\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\GLTools\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\AntTweakBar\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\glew\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -137,12 +137,12 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Lib>
-      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
     </Lib>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\FreeImage\Source;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\freeglut\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\GLTools\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\glew\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\FreeImage\Source;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\freeglut\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\GLTools\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\AntTweakBar\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\glew\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -158,10 +158,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FREEIMAGE_LIB;TW_STATIC;_CRT_SECURE_NO_WARNINGS;FREEGLUT_LIB_PRAGMAS=0;FREEGLUT_STATIC;TW_NO_LIB_PRAGMA;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\FreeImage\Source;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\freeglut\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\GLTools\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\glew\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\FreeImage\Source;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\freeglut\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\GLTools\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\AntTweakBar\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\glew\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\FreeImage\Source;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\freeglut\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\GLTools\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\glew\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\FreeImage\Source;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\freeglut\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\GLTools\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\AntTweakBar\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\glew\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -169,12 +169,12 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Lib>
-      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
     </Lib>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\FreeImage\Source;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\freeglut\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\GLTools\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\glew\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\FreeImage\Source;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\freeglut\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\GLTools\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\AntTweakBar\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\glew\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -190,10 +190,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FREEIMAGE_LIB;TW_STATIC;_CRT_SECURE_NO_WARNINGS;FREEGLUT_LIB_PRAGMAS=0;FREEGLUT_STATIC;TW_NO_LIB_PRAGMA;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\FreeImage\Source;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\freeglut\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\GLTools\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\glew\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\FreeImage\Source;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\freeglut\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\GLTools\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\AntTweakBar\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\glew\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\FreeImage\Source;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\freeglut\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\GLTools\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\AntTweakBar\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\Dependencies\glew\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\FreeImage\Source;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\freeglut\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\GLTools\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\AntTweakBar\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\Dependencies\glew\include;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -201,14 +201,14 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Lib>
-      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\ImageLoader\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm/ImageLoader/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm -BC:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm/build --check-stamp-file C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\build\ImageLoader\CMakeFiles\generate.stamp
+    <CustomBuild Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\ImageLoader\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm/ImageLoader/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm -BC:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm/build --check-stamp-file C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\build\ImageLoader\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -216,12 +216,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm/ImageLoader/CMakeLists.txt;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\ImageLoader\CMakeLists.txt;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\ImageLoader\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\build\ImageLoader\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm/ImageLoader/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm -BC:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm/build --check-stamp-file C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\build\ImageLoader\CMakeFiles\generate.stamp
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm/ImageLoader/CMakeLists.txt;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\ImageLoader\CMakeLists.txt;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\ImageLoader\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\build\ImageLoader\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm/ImageLoader/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm -BC:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm/build --check-stamp-file C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\build\ImageLoader\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -229,12 +229,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm/ImageLoader/CMakeLists.txt;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\ImageLoader\CMakeLists.txt;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\ImageLoader\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\build\ImageLoader\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm/ImageLoader/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm -BC:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm/build --check-stamp-file C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\build\ImageLoader\CMakeFiles\generate.stamp
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm/ImageLoader/CMakeLists.txt;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\ImageLoader\CMakeLists.txt;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\ImageLoader\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\build\ImageLoader\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm/ImageLoader/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm -BC:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm/build --check-stamp-file C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\build\ImageLoader\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -242,12 +242,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm/ImageLoader/CMakeLists.txt;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\ImageLoader\CMakeLists.txt;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\ImageLoader\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\build\ImageLoader\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm/ImageLoader/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm -BC:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm/build --check-stamp-file C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\build\ImageLoader\CMakeFiles\generate.stamp
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm/ImageLoader/CMakeLists.txt;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\ImageLoader\CMakeLists.txt;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\ImageLoader\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\build\ImageLoader\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm/ImageLoader/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm -BC:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm/build --check-stamp-file C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\build\ImageLoader\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -255,21 +255,21 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm/ImageLoader/CMakeLists.txt;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\ImageLoader\CMakeLists.txt;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\ImageLoader\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\build\ImageLoader\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm/ImageLoader/CMakeLists.txt;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\ImageLoader\CMakeLists.txt;C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\ImageLoader\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\build\ImageLoader\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\ImageLoader\ImageLoader.h" />
-    <ClCompile Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBVRahmenprogramm\ImageLoader\ImageLoader.cpp"  />
+    <ClInclude Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\ImageLoader\ImageLoader.h" />
+    <ClCompile Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\ImageLoader\ImageLoader.cpp"  />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm/build/ZERO_CHECK.vcxproj">
-      <Project>E746B1C3-A8C3-3450-A76F-2B60693864C1</Project>
+    <ProjectReference Include="C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm/build/ZERO_CHECK.vcxproj">
+      <Project>C0419E66-F047-3A7F-9C2C-CAC7B0597C5E</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBVRahmenprogramm/build/Dependencies/FreeImage/FreeImage.vcxproj">
-      <Project>55F0B397-7515-32A0-A2E1-04C1F17E7370</Project>
+    <ProjectReference Include="C:/Users/Renegade/Documents/CGBV/CGBVRahmenprogrammSS16/CGBV/CGBVRahmenprogramm/build/Dependencies/FreeImage/FreeImage.vcxproj">
+      <Project>0FE4549E-DDCE-3975-9773-387776979DE6</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
