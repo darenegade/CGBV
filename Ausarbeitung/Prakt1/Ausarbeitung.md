@@ -20,7 +20,7 @@ Zu guter letzt wird mithilfe von clamp verhidnert, dass ein Pixel-Vektor nach de
 [insert original here]() [insert filtered here]()
 
 ## 2. Gauss3x3
-Im gegensatz zum BewMit-Filter wird beim Gauss-Filter ein Algorithmus zur generierung der Gewichtung der umgebenden Pixel verwendet. Diese Funktion ist abhängig von den gegebenen Positionen der Pixel und einer vom Nutzer konfigurierbaren Varianz. Die Funktion zur berechnung der Impulsantwort findet sich (hier)[https://de.wikipedia.org/wiki/Gau%C3%9F-Filter#Bildverarbeitung].
+Im gegensatz zum BewMit-Filter wird beim Gauss-Filter ein Algorithmus zur generierung der Gewichtung der umgebenden Pixel verwendet. Diese Funktion ist abhängig von den gegebenen Positionen der Pixel und einer vom Nutzer konfigurierbaren Varianz. Die Funktion zur berechnung der Impulsantwort findet sich (https://de.wikipedia.org/wiki/Gau%C3%9F-Filter#Bildverarbeitung)[hier] .
 
 ```
 float varianz(vec2 cords){
