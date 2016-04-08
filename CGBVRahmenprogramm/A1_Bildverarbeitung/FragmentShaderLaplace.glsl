@@ -27,9 +27,24 @@ uniform vec2 offsets[9] = vec2[](	vec2(-1,  1),
 									vec2( 1,  0),
 									vec2( 1, -1)	);
 
+const int weight[9] = int[](	-1,	-1,	-1,
+								-1,	8,	-1,
+								-1,	-1,	-1);
 void main()
 {
 
-    fragColor =		texture(textureMap, texCoords);
+	float contrast = (param1.y + 100.0) / 100.0;
+
+	vec4 sum = vec4(0.0, 0.0, 0.0, 0.5);
+
+	for(int i = 0; i < 9; i++){
+		sum += weight[i] * texture(textureMap, texCoords + offsets[i]);
+
+	}
+
+	sum += param1.x /100.0;
+	sum = contrast * sum + 0.5 * (1.0 - contrast) * vec4(1);
+
+    fragColor =	clamp(sum, 0.0, 1.0);
 
 }
