@@ -327,6 +327,18 @@ void RenderScene(void)
 // Initialisierung des Rendering Kontextes
 void SetupRC()
 {
+	// Vertikale Synchronisierung bei Windows ausschalten, z.B. in der SetupRC-Funktion
+
+	if (strstr((char *)glGetString(GL_EXTENSIONS), "WGL_EXT_swap_control") != NULL)
+
+	{
+		typedef BOOL(APIENTRY *PFNWGLSWAPINTERVALFARPROC)(int);
+		PFNWGLSWAPINTERVALFARPROC wglSwapIntervalEXT = 0;
+		wglSwapIntervalEXT = (PFNWGLSWAPINTERVALFARPROC)wglGetProcAddress("wglSwapIntervalEXT");
+		if (wglSwapIntervalEXT != NULL) wglSwapIntervalEXT(0);
+	}
+
+
 	// Blauer Hintergrund
 	glClearColor(0.12f, 0.35f, 0.674f, 0.0f);
 
