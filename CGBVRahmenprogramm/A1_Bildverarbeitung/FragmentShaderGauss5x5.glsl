@@ -22,9 +22,31 @@ uniform vec2 offsets[25] = vec2[](	vec2(-2,  2), vec2(-1,  2), vec2(0,  2), vec2
 									vec2(-2, -1), vec2(-1, -1), vec2(0, -1), vec2(1, -1), vec2(2, -1), 
 									vec2(-2, -2), vec2(-1, -2), vec2(0, -2), vec2(1, -2), vec2(2, -2)	);
 
+//Varianz Funktion siehe: https://de.wikipedia.org/wiki/Gau%C3%9F-Filter
+float varianz(vec2 cords){
+
+	float a = 1/(2.0 * 3.145 * pow(param1.x,2));
+	float ba = pow(cords.x,2)+pow(cords.y,2);
+	float bb = 2*pow(param1.x,2);
+
+	return  a * exp((ba/bb)*(-1.0)); 
+
+}
+
 void main()
 {
 
-    fragColor =	texture(textureMap, texCoords);
+	vec4 sum = vec4(0.0, 0.0, 0.0, 1.0);
+	float summ = 0.0;
+
+
+	for(int i = 0; i < 25; i++){
+		float varianz = varianz(offsets[i]);
+		sum += varianz * texture(textureMap, texCoords + offsets[i]);
+		summ += varianz;
+	}
+
+	fragColor = sum / summ;
+
 
 }
