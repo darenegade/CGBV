@@ -112,13 +112,13 @@ Um die Störungen aus dem Bild zu entfernen ist es nötig einen Median-Filter zu
 ![Gefiltertes Bild 7x7 Median-Filter](/Images/Median77.PNG)
 
 ## 2. Kanten extrahieren
-Um die Kanten zu extrahieren wird der Sobel-Filter verwendet. Um ein besseres Ergebnis zu erzielen wurde zunächst das Rauschen aus dem Bild mithilfe des Median-Filters entfernt.
+Um die Kanten zu extrahieren wird der Sobel-Filter verwendet. Um ein besseres Ergebnis zu erzielen wurde zunächst das Rauschen mithilfe von einer Dilatation und einer Erosion so gut wie möglich entfernt. Abschließend wurde noch einmal der Gauss-Filter angewendet um die Kanten weicher zu machen.
 
 ![Ursprüngliches Bild](/Images/parts.PNG)
-![Extrahierte Kanten](/Images/ScrewsCorners.PNG)
+![Extrahierte Kanten](/Images/PartsCorners.PNG)
 
 ## 3. Binärbild erstellen
-[fehlt]
+Zur Erstellung eines Binärbild wurde der Filter Binary erstellt, der anhand des in Parameter Z angegebenen Schwellwerts (zwischen 0 und 255) den jeweiligen Pixel auf 0 oder 1 setzt um ein Binärbild zu erzeugen. Zur Vorbehandlung des Ursprungsbildes wurde zuvor noch zwei Erosionen und eine Dilatation durchgeführt um bessere abgrenzungen zu erzeugen.
 
 ![Ursprüngliches Bild](/Images/rice.PNG)
-![Binärbild](/Images/RiceBinary.PNG)
+![Binärbild](/Images/RiceBin.PNG)
