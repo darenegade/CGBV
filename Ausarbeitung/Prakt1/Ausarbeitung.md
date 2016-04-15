@@ -106,19 +106,19 @@ Im gegensatz zur Dilatation werden bei der Erosion die dunklen Bereiche verstär
 ## 1. Störungen entfernen
 Um die Störungen aus dem Bild zu entfernen ist es nötig einen Median-Filter zu verwenden, da die Störungen gleichermaßen aus weißen und schwarzen Pixeln bestehen. Hier würde Dilatation und Erosion nicht helfen. Bei der Implementierung des Median-Filters kann über den Parameter x angegeben werden welche größe dieser haben soll. 0 entspricht 3x3, 1 entspricht 5x5 und 2 entspricht 7x7. Dabei sollte unbedingt darauf geachtet werden, dass der 7x7 Median-Filter extrem Ressourcen verbraucht und sich das Programm eventuell aufhängt.
 
-![Ursprüngliches Bild](/Images/TajMahalNoise.jpg)
-![Gefiltertes Bild 3x3 Median-Filter](/Images/Median33.PNG)
-![Gefiltertes Bild 5x5 Median-Filter](/Images/Median55.PNG)
-![Gefiltertes Bild 7x7 Median-Filter](/Images/Median77.PNG)
+![Ursprüngliches Bild](Images/TajMahalNoise.jpg)
+![Gefiltertes Bild 3x3 Median-Filter](Images/Median33.PNG)
+![Gefiltertes Bild 5x5 Median-Filter](Images/Median55.PNG)
+![Gefiltertes Bild 7x7 Median-Filter](Images/Median77.PNG)
 
 ## 2. Kanten extrahieren
 Um die Kanten zu extrahieren wird der Sobel-Filter verwendet. Um ein besseres Ergebnis zu erzielen wurde zunächst das Rauschen mithilfe von einer Dilatation und einer Erosion so gut wie möglich entfernt. Abschließend wurde noch einmal der Gauss-Filter angewendet um die Kanten weicher zu machen.
 
-![Ursprüngliches Bild](/Images/parts.jpg)
-![Extrahierte Kanten](/Images/PartsCorners.PNG)
+![Ursprüngliches Bild](Images/parts.jpg)
+![Extrahierte Kanten](Images/PartsCorners.PNG)
 
 ## 3. Binärbild erstellen
 Zur Erstellung eines Binärbild wurde der Filter Binary erstellt, der anhand des in Parameter Z angegebenen Schwellwerts (zwischen 0 und 255) den jeweiligen Pixel auf 0 oder 1 setzt um ein Binärbild zu erzeugen. Zur Vorbehandlung des Ursprungsbildes wurde zuvor noch zwei Erosionen und eine Dilatation durchgeführt um bessere abgrenzungen zu erzeugen.
 
-![Ursprüngliches Bild](/Images/rice.jpg)
-![Binärbild](/Images/RiceBin.PNG)
+![Ursprüngliches Bild](Images/rice.jpg)
+![Binärbild](Images/RiceBin.PNG)
