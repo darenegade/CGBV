@@ -322,6 +322,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\A1_Bildverarbeitung\Timer.h" />
     <ClCompile Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\A1_Bildverarbeitung\ImageProcessing.cpp" />
     <ClCompile Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\A1_Bildverarbeitung\Timer.cpp" />
+    <None Include="..\..\A1_Bildverarbeitung\FragmentShaderBinary.glsl" />
     <None Include="..\..\A1_Bildverarbeitung\FragmentShaderMedian.glsl" />
     <None Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\A1_Bildverarbeitung\FragmentShaderBewMit.glsl" />
     <None Include="C:\Users\Renegade\Documents\CGBV\CGBVRahmenprogrammSS16\CGBV\CGBVRahmenprogramm\A1_Bildverarbeitung\VertexShader.glsl" />
