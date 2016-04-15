@@ -104,16 +104,21 @@ Im gegensatz zur Dilatation werden bei der Erosion die dunklen Bereiche verstär
 # Aufgabe 1.3
 
 ## 1. Störungen entfernen
-asdf
+Um die Störungen aus dem Bild zu entfernen ist es nötig einen Median-Filter zu verwenden, da die Störungen gleichermaßen aus weißen und schwarzen Pixeln bestehen. Hier würde Dilatation und Erosion nicht helfen. Bei der Implementierung des Median-Filters kann über den Parameter x angegeben werden welche größe dieser haben soll. 0 entspricht 3x3, 1 entspricht 5x5 und 2 entspricht 7x7. Dabei sollte unbedingt darauf geachtet werden, dass der 7x7 Median-Filter extrem Ressourcen verbraucht und sich das Programm eventuell aufhängt.
 
-[insert original here]() [insert filtered here]()
+![Ursprüngliches Bild](/Images/TajMahalNoise.PNG)
+![Gefiltertes Bild 3x3 Median-Filter](/Images/Median33.PNG)
+![Gefiltertes Bild 5x5 Median-Filter](/Images/Median55.PNG)
+![Gefiltertes Bild 7x7 Median-Filter](/Images/Median77.PNG)
 
 ## 2. Kanten extrahieren
-asdf
+Um die Kanten zu extrahieren wird der Sobel-Filter verwendet. Um ein besseres Ergebnis zu erzielen wurde zunächst das Rauschen aus dem Bild mithilfe des Median-Filters entfernt.
 
-[insert original here]() [insert filtered here]()
+![Ursprüngliches Bild](/Images/parts.PNG)
+![Extrahierte Kanten](/Images/ScrewsCorners.PNG)
 
 ## 3. Binärbild erstellen
-asdf
+[fehlt]
 
-[insert original here]() [insert filtered here]()
+![Ursprüngliches Bild](/Images/rice.PNG)
+![Binärbild](/Images/RiceBinary.PNG)
