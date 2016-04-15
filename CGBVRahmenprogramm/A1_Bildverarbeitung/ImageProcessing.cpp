@@ -36,7 +36,8 @@ GLBatch modelBatch;
 #define GAUSS3x3      8
 #define GAUSS5x5      9
 #define GAUSS7x7      10
-#define TOTAL_SHADERS 11
+#define Median		  11
+#define TOTAL_SHADERS 12
 
 GLuint fShader[TOTAL_SHADERS];  // high-level shader object handles
 
@@ -51,7 +52,9 @@ const std::string shaderNames[TOTAL_SHADERS] = {
 	"BewMit", 
 	"Gauss3x3", 
 	"Gauss5x5",
-	"Gauss7x7" };
+	"Gauss7x7",
+	"Median"
+};
 
 GLint whichShader = PASS_THROUGH;       // default shader
 GLint secondShader = PASS_THROUGH;       // second shader
