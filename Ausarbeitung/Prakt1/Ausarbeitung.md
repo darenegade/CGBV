@@ -17,7 +17,7 @@ Zur Erhöhung des Kontrastes muss der Pixel-Vektor mit einem Faktor skaliert wer
 
 Zu guter letzt wird mithilfe von clamp verhidnert, dass ein Pixel-Vektor nach der anpassung von Helligkeit und Kontrast Werte > 1 enthält.
 
-![Original](Images/Original.PNG) ![Brightness_Contrast](Images/BrightContr.PNG)
+![Original](Images/original.PNG) ![Brightness_Contrast](Images/BrightContr.PNG)
 
 ## 2. Gauss3x3
 Im gegensatz zum BewMit-Filter wird beim Gauss-Filter ein Algorithmus zur generierung der Gewichtung der umgebenden Pixel verwendet. Diese Funktion ist abhängig von den gegebenen Positionen der Pixel und einer vom Nutzer konfigurierbaren Varianz. Die Funktion zur berechnung der Impulsantwort findet sich [hier](https://de.wikipedia.org/wiki/Gau%C3%9F-Filter#Bildverarbeitung).
@@ -34,18 +34,18 @@ float varianz(vec2 cords){
 }
 ```
 
-![Original](Images/Original.PNG) ![Gauss3x3](Images/Gauss33.PNG)
+![Original](Images/original.PNG) ![Gauss3x3](Images/Gauss33.PNG)
 
 ## 3. Gauss5x5#
 
 Um einen Gauss-Tiefpassfilter mit einer größe von 5x5 Pixeln zu implementieren, wurde schlichtweg der Code des 3x3-Filters kopiert und die Anzahl an Schleifendurchläuzfen zur berechnung des neuen Pixelwertes auf 5x5=25 erhöht.
 
-![Original](Images/Original.PNG) ![Gauss5x5](Images/Gauss55.PNG)
+![Original](Images/original.PNG) ![Gauss5x5](Images/Gauss55.PNG)
 
 ## 4. Gauss7x7
 Wie bereits beim 5x5 Gauss-Filter wurde auch hier einfach der Code des 3x3-Filters kopiert und die Anzahl der Schleifendurchläufe in diesem Fall auf 49 erhöht.
 
-![Original](Images/Original.PNG) ![Gauss7x7](Images/Gauss77.PNG)
+![Original](Images/original.PNG) ![Gauss7x7](Images/Gauss77.PNG)
 
 ### Zeiteinsparung durch aufteilung in Vertikal und Horizontal
 
@@ -71,7 +71,7 @@ const int weight[9] = { -1, -1, -1,
 
 Anschließend wird auch hier wieder `clamp` verwendet um den Pixel-Vektor im gültigen Wertebereich zu halten.
 
-![Original](Images/Original.PNG) ![Laplace](Images/Laplace.PNG)
+![Original](Images/original.PNG) ![Laplace](Images/Laplace.PNG)
 
 ## 6. Sobel
 Der Soebelbetragsoperator ist eine weitere möglichkeit zur Kantendetektion neben dem Laplace-Filter. Für diesen werden zwei Filterkerne verwendet, mit denen man zwei Bilder als Ergebnis erhält. Das eine Bild zeigt die Kanten in vertikaler Richtung, das andere in horizontaler. Um nun die Ausprägung der Kante an einer bestimmten Position zu erhalten werden die beiden Bilder wie folgt miteinander kombiniert:
@@ -80,22 +80,22 @@ Der Soebelbetragsoperator ist eine weitere möglichkeit zur Kantendetektion nebe
 sqrt(pow(bild1.rgb, 2) + pow(bild2.rgb, 2))
 ```
 
-![Original](Images/Original.PNG) ![Sobel](Images/Sobel.PNG)
+![Original](Images/original.PNG) ![Sobel](Images/Sobel.PNG)
 
 ## 7. Sharpen
 Zum schärfen eines Bildes wird das ursprüngliche Bild addiert mit einem Hochpassfilter des Bildes. Um die schärfung über einen Parameter zu steuern, wird dieser Hochpassfilter mit dem Parameter multipliziert. Der Hochpassfilter verwendet den gleichen Filterkern wie der Laplace-Filter.
 
-![Original](Images/Original.PNG) ![Sharpen](Images/Sharpen.PNG)
+![Original](Images/original.PNG) ![Sharpen](Images/Sharpen.PNG)
 
 ## 8. Dilatation
 Bei der Dilatation sollen helle Bereiche verstärkt werden. Dafür wird der aktuelle Pixel auf den maximalen Farbwert aus der Umgebung des aktuellen Pixels gesetzt.
 
-![Original](Images/Original.PNG) ![Dilatation](Images/Delatation.PNG)
+![Original](Images/original.PNG) ![Dilatation](Images/Delatation.PNG)
 
 ## 9. Erosion
 Im gegensatz zur Dilatation werden bei der Erosion die dunklen Bereiche verstärkt. Um dies zu erreichen wird hier, anstatt des maximums, das minimum aus der betrachteten Umgebung zu verwenden.
 
-![Original](Images/Original.PNG) ![Erosion](Images/Erosion.PNG)
+![Original](Images/original.PNG) ![Erosion](Images/Erosion.PNG)
 
 # Aufgabe 1.3
 
