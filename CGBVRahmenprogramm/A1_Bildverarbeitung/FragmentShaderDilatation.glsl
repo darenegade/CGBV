@@ -18,17 +18,18 @@ out vec4 fragColor;					// Ausgabewert mit 4 Komponenten zwischen 0.0 und 1.0
 uniform sampler2DRect textureMap;		// Sampler für die Texture Map
 uniform vec4 param1;				// param1.x +=F5, -=F6, param1.y +=F7, -=F8, param1.z +=F9, -=F10, param1.w +=F11, -=F12
 
-uniform vec2 resolution;
 
 void main()
 {
-	int dist = (int) param1.x;
+	vec2 resolution = vec2(1280,720); 
+
+	float dist = param1.x;
 	vec2 coords;
 	
 	vec4 MaxValue = vec4( 0.0, 0.0, 0.0, 0.0 );
-
-	for( int x = 0 - dist; x <= dist; x++ ){
-		for( int y = 0 - dist; y <= dist; y++ ){
+	
+	for( float x = 0 - dist; x <= dist; x++ ){
+		for( float y = 0 - dist; y <= dist; y++ ){
 
 			coords = texCoords + vec2(x,y);
 
@@ -41,7 +42,7 @@ void main()
 			if(coords.y > resolution.y)
 				coords.y = resolution.y;
 
-			MaxValue = max( texture( textureMap, coords), MinValue );
+			MaxValue = max( texture( textureMap, coords), MaxValue );
 
 		}
 	}

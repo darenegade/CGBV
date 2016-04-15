@@ -22,13 +22,15 @@ uniform vec2 resolution;
 
 void main()
 {
-	int dist = (int) param1.x;
+	vec2 resolution = vec2(1280,720); 
+
+	float dist = param1.x;
 	vec2 coords;
 	
 	vec4 MinValue = vec4( 1.0, 1.0, 1.0, 1.0 );
-
-	for( int x = 0 - dist; x <= dist; x++ ){
-		for( int y = 0 - dist; y <= dist; y++ ){
+	
+	for( float x = 0 - dist; x <= dist; x++ ){
+		for( float y = 0 - dist; y <= dist; y++ ){
 
 			coords = texCoords + vec2(x,y);
 
