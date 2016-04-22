@@ -38,6 +38,8 @@ float varianz(vec2 cords){
 }
 ```
 
+Durch Erhöhung der Varianz über den Parameter X wird die Unschärfe erhöht.
+
 \ ![Gauss3x3](Images/Gauss33.PNG)
 
 ## 3. Gauss5x5#
@@ -77,6 +79,8 @@ Anschließend wird auch hier wieder `clamp` verwendet um den Pixel-Vektor im gü
 
 \ ![Laplace](Images/Laplace.PNG)
 
+In diesem Filter ist auch der Brightness & Kontrast Filter integriert, womit man über die Parameter X und Y die Helligkeit bzw. den Kontrast verändern kann.
+
 ## 6. Sobel
 Der Soebelbetragsoperator ist eine weitere Möglichkeit zur Kantendetektion neben dem Laplace-Filter. Für diesen werden zwei Filterkerne verwendet, mit denen man zwei Bilder als Ergebnis erhält. Das eine Bild zeigt die Kanten in vertikaler und das andere in horizontaler Richtung. Um nun die Ausprägung der Kante an einer bestimmten Position zu erhalten werden die beiden Bilder wie folgt miteinander kombiniert:
 
@@ -86,20 +90,28 @@ sqrt(pow(bild1.rgb, 2) + pow(bild2.rgb, 2))
 
 \ ![Sobel](Images/Sobel.PNG)
 
+Über den Parameter X kann der Schwellwert eingestellt werden, bei dem eine Kante als Kante detektiert wird. Je höher der Schwellwert ist, desto größer muss die Änderung zur Detektion einer Kante sein.
+
 ## 7. Sharpen
 Zum schärfen eines Bildes wird auf dem ursprüngliche Bild ein Hochpassfilter angewendet und anschließend mit dem Original addiert. Um die Schärfung über einen Parameter zu steuern, wird dieser Hochpassfilter mit dem Parameter multipliziert. Der Hochpassfilter verwendet den gleichen Filterkern wie der Laplace-Filter.
 
 \ ![Sharpen](Images/Sharpen.PNG)
 
 ## 8. Dilatation
-Bei der Dilatation sollen helle Bereiche verstärkt werden. Dafür wird der aktuelle Pixel auf den maximalen Farbwert aus der Umgebung des aktuellen Pixels gesetzt.
+Bei der Dilatation sollen helle Bereiche verstärkt werden. Dafür wird der aktuelle Pixel auf den maximalen Farbwert aus der Umgebung des aktuellen Pixels gesetzt. 
 
 \ ![Dilatation](Images/Delatation.PNG)
 
+Mit dem Paramter X kann die größe der Umgebung angepasst werden. Je größer die Umgebung, desto größer denen sich die Bereiche aus.
+Dieser Filter könnte auch in horizontale und vertikale Anteile aufgeteilt werden, jedoch würde dies das Ergebnis negativ beeinflussen.
+
 ## 9. Erosion
-Im gegensatz zur Dilatation werden bei der Erosion die dunklen Bereiche verstärkt. Um dies zu erreichen wird hier, anstatt des Maximums, das Minimum aus der betrachteten Umgebung verwenden.
+Im gegensatz zur Dilatation werden bei der Erosion die dunklen Bereiche verstärkt. Um dies zu erreichen wird hier, anstatt des Maximums, das Minimum aus der betrachteten Umgebung verwenden. Dieser Filter könnte auch in horizontale und vertikale Anteile aufgeteilt werden, jedoch würde dies das Ergebnis negativ beeinflussen.
+
 
 \ ![Erosion](Images/Erosion.PNG)
+
+Mit dem Paramter X kann die größe der Umgebung angepasst werden. Je größer die Umgebung, desto größer denen sich die Bereiche aus.
 
 # Aufgabe 1.3
 
