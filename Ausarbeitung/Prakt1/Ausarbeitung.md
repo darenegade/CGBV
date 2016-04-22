@@ -131,6 +131,7 @@ Um die Kanten zu extrahieren wird der Sobel-Filter verwendet. Um ein besseres Er
 
 ## 3. Binärbild erstellen
 Zur Erstellung eines Binärbild wurde der Filter Binary erstellt, der anhand des in Parameter Z angegebenen Schwellwerts (zwischen 0 und 255) den jeweiligen Pixel auf 0 oder 1 setzt. Zur Vorbehandlung des Ursprungsbildes wurde zuvor noch zwei Erosionen und eine Dilatation durchgeführt um bessere Abgrenzungen zu erzeugen.
+Um anschließend die Reiskörner zählen zu können kann, durch die vorverarbeitung in ein Binärbild component labeling angewendet werden. Dabei wird die Komponente definiert als Menge aller miteinander verbundenen 1-Pixel (oder weißen Pixeln). Anschließend wird jeder gefundenen Komponente eine Nummer zugeordnet, die höchste dieser Nummern ist dann die Anzahl an Reiskörnern im gegebenen Bild. 
 
 \ ![Ursprüngliches Bild](Images/rice.jpg)
 \ ![Binärbild](Images/RiceBin.PNG)
