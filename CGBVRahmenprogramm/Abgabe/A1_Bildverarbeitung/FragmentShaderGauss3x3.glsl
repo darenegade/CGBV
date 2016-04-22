@@ -11,7 +11,6 @@
 // ---------------------------------
 #version 330
 
-
 smooth in vec2 texCoords;			// pixelbezogene Texturkoordinate
 out vec4 fragColor;					// Ausgabewert mit 4 Komponenten zwischen 0.0 und 1.0
 uniform sampler2DRect textureMap;		// Sampler für die Texture Map
@@ -26,30 +25,31 @@ uniform vec2 offsets[9] = vec2[](	vec2(-1,  1),
 									vec2( 1,  1),
 									vec2( 1,  0),
 									vec2( 1, -1)	);
+//Varianz Funktion siehe: https://de.wikipedia.org/wiki/Gau%C3%9F-Filter
+float varianz(vec2 cords){
+
+	float a = 1/(2.0 * 3.145 * pow(param1.x,2));
+	float ba = pow(cords.x,2)+pow(cords.y,2);
+	float bb = 2*pow(param1.x,2);
+
+	return  a * exp((ba/bb)*(-1.0)); 
+
+}
 
 void main()
 {
-	
 
-	mat3 gaussianCoef = mat3(
-
-		1.0,	2.0,	1.0,
-
-		2.0,	4.0,	2.0,
-
-		1.0,	2.0,	1.0);
+	vec4 sum = vec4(0.0, 0.0, 0.0, 1.0);
+	float summ = 0.0;
 
 
-	for(int i=0;i<3;i++) {
-
-		for(int j=0;j<3;j++) {
-
-			fragColor += gaussianCoef[i][j] * texture(textureMap, texCoords);
-
-		}
-
+	for(int i = 0; i < 9; i++){
+		float varianz = varianz(offsets[i]);
+		sum += varianz * texture(textureMap, texCoords + offsets[i]);
+		summ += varianz;
 	}
 
-	fragColor /= 16.0;
+	fragColor = sum / summ;
+
 
 }

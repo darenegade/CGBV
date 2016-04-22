@@ -29,7 +29,35 @@ uniform vec2 offsets[9] = vec2[](	vec2(-1,  1),
 
 void main()
 {
+	vec4 Sample[9];
+	float schwell = param1.x / 100;
 
-    fragColor =	texture(textureMap, texCoords);
+	for(int i = 0; i < 9; i++){
+	 Sample[i] = texture(textureMap, texCoords + offsets[i]);
+	 Sample[i].x = (Sample[i].x +Sample[i].y + Sample[i].z)/3;
+	 Sample[i].y = Sample[i].x;
+	 Sample[i].z = Sample[i].x;
+	}
+
+	vec4 HorizEdge = Sample[2] + 2*Sample[5] + Sample[8]
+						- (Sample[0] + 2*Sample[3] + Sample[6]);
+
+	vec4 VertEdge = Sample[0] + 2*Sample[1] + Sample[2]
+						- (Sample[6] + 2*Sample[7] + Sample[8]);
+
+
+
+	fragColor.x = sqrt( pow(HorizEdge.x,2) + pow(VertEdge.x,2));
+
+
+	if(fragColor.x > schwell){
+		fragColor.y = fragColor.x;
+		fragColor.z = fragColor.x;
+	}
+	else{
+		fragColor.x = 0;
+		fragColor.y = 0;
+		fragColor.z = 0;
+		}
 
 }

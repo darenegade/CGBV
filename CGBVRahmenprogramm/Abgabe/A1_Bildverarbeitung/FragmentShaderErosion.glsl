@@ -18,19 +18,33 @@ out vec4 fragColor;					// Ausgabewert mit 4 Komponenten zwischen 0.0 und 1.0
 uniform sampler2DRect textureMap;		// Sampler für die Texture Map
 uniform vec4 param1;				// param1.x +=F5, -=F6, param1.y +=F7, -=F8, param1.z +=F9, -=F10, param1.w +=F11, -=F12
 
-uniform vec2 offsets[9] = vec2[](	vec2(-1,  1),
-									vec2(-1,  0),
-									vec2(-1, -1),
-									vec2( 0,  1),
-									vec2( 0,  0),
-									vec2( 0, -1),
-									vec2( 1,  1),
-									vec2( 1,  0),
-									vec2( 1, -1)	);
-
 void main()
 {
+	vec2 resolution = vec2(1280,720); 
 
-    fragColor =	texture(textureMap, texCoords);
+	float dist = param1.x;
+	vec2 coords;
+	
+	vec4 MinValue = vec4( 1.0, 1.0, 1.0, 1.0 );
+	
+	for( float x = 0 - dist; x <= dist; x++ ){
+		for( float y = 0 - dist; y <= dist; y++ ){
+
+			coords = texCoords + vec2(x,y);
+
+			if(coords.x < 0)
+				coords.x = 0;
+			if(coords.y < 0)
+				coords.y = 0;
+			if(coords.x > resolution.x)
+				coords.x = resolution.x;
+			if(coords.y > resolution.y)
+				coords.y = resolution.y;
+
+			MinValue = min( texture( textureMap, coords), MinValue );
+
+		}
+	}
+	fragColor = MinValue;
 
 }

@@ -36,12 +36,27 @@ GLBatch modelBatch;
 #define GAUSS3x3      8
 #define GAUSS5x5      9
 #define GAUSS7x7      10
-#define TOTAL_SHADERS 11
+#define Median		  11
+#define Binary		  12
+#define TOTAL_SHADERS 13
 
 GLuint fShader[TOTAL_SHADERS];  // high-level shader object handles
 
-const std::string shaderNames[TOTAL_SHADERS] = { "Passthrough", "Brightness_Contrast", "Sharpen", "Dilatation", "Erosion", "Laplace", "Sobel", "BewMit", "Gauss3x3", "Gauss5x5",
-"Gauss7x7" };
+const std::string shaderNames[TOTAL_SHADERS] = { 
+	"Passthrough", 
+	"Brightness_Contrast", 
+	"Sharpen", 
+	"Dilatation", 
+	"Erosion", 
+	"Laplace", 
+	"Sobel", 
+	"BewMit", 
+	"Gauss3x3", 
+	"Gauss5x5",
+	"Gauss7x7",
+	"Median",
+	"Binary"
+};
 
 GLint whichShader = PASS_THROUGH;       // default shader
 GLint secondShader = PASS_THROUGH;       // second shader
@@ -70,14 +85,14 @@ const std::string TextureMapNames[] = {
 */
 //Dateinamen für die Texture-Maps
 const std::string TextureMapNames[] = {
-	"../Texturen/e43_color_1280_720.bmp",
-	"../Texturen/e43_sw_1280_720.bmp",
-	"../Texturen/TajMahalNoise.jpg",
-	"../Texturen/zonenplatte.bmp",
-	"../Texturen/calculator.jpg",
-	"../Texturen/Block6.BMP",
-	"../Texturen/parts.jpg",
-	"../Texturen/rice.jpg"
+	"../../Texturen/e43_color_1280_720.bmp",
+	"../../Texturen/e43_sw_1280_720.bmp",
+	"../../Texturen/TajMahalNoise.jpg",
+	"../../Texturen/zonenplatte.bmp",
+	"../../Texturen/calculator.jpg",
+	"../../Texturen/Block6.BMP",
+	"../../Texturen/parts.jpg",
+	"../../Texturen/rice.jpg"
 };
 
 
@@ -235,8 +250,8 @@ void CreateGeometry()
 
 	for (int i = 0; i < TOTAL_SHADERS; i++)
 	{
-		sprintf(fullFileName, "./FragmentShader%s.glsl", shaderNames[i].c_str());
-		fShader[i] = gltLoadShaderPairWithAttributes("./VertexShader.glsl", fullFileName, 2,
+		sprintf(fullFileName, "../../A1_Bildverarbeitung/FragmentShader%s.glsl", shaderNames[i].c_str());
+		fShader[i] = gltLoadShaderPairWithAttributes("../../A1_Bildverarbeitung/VertexShader.glsl", fullFileName, 2,
 			GLT_ATTRIBUTE_VERTEX, "vVertex",
 			GLT_ATTRIBUTE_TEXTURE0, "vTexCoord");
 
@@ -317,6 +332,18 @@ void RenderScene(void)
 // Initialisierung des Rendering Kontextes
 void SetupRC()
 {
+	// Vertikale Synchronisierung bei Windows ausschalten, z.B. in der SetupRC-Funktion
+
+	if (strstr((char *)glGetString(GL_EXTENSIONS), "WGL_EXT_swap_control") != NULL)
+
+	{
+		typedef BOOL(APIENTRY *PFNWGLSWAPINTERVALFARPROC)(int);
+		PFNWGLSWAPINTERVALFARPROC wglSwapIntervalEXT = 0;
+		wglSwapIntervalEXT = (PFNWGLSWAPINTERVALFARPROC)wglGetProcAddress("wglSwapIntervalEXT");
+		if (wglSwapIntervalEXT != NULL) wglSwapIntervalEXT(0);
+	}
+
+
 	// Blauer Hintergrund
 	glClearColor(0.12f, 0.35f, 0.674f, 0.0f);
 

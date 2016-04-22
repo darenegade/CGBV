@@ -32,4 +32,12 @@ void main()
 
     fragColor =	texture(textureMap, texCoords);
 
+	fragColor += param1.x /100.0;
+
+	float scale = (param1.y + 100.0) / 100.0;
+
+	fragColor = scale * fragColor + 0.5 * (1.0 - scale) * vec4(1);
+
+	fragColor = clamp(fragColor, 0.0, 1.0);
+
 }
